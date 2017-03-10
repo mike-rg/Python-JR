@@ -20,6 +20,7 @@ def thausands_with_commas(i):
     retval = out_of_commas + retval
     return retval
 
+
 if __name__ == "__main__":
     assert thausands_with_commas(1234) == '1,234'
     assert thausands_with_commas(123456789) == '123,456,789'

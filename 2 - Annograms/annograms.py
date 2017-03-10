@@ -20,6 +20,7 @@ def sorted_word(word):
     chars.sort()
     return "".join(chars)
 
+
 if __name__ == "__main__":
     print(annograms("train"))
     print('--')
